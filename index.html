@@ -66,7 +66,54 @@
         <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
-            <button data-modal-close>Закрыть</button>
+            <button data-modal-close>
+              <svg class="close" width="11" height="11">
+                <use xlink:href="./images/sprite.svg#close">
+                </use>
+            </svg>
+            </button>
+            <p class="popup__text">Оставьте свои данные, мы вам перезвоним</p>
+            <form class="form-modal">
+              <label for="name" class="form__name">
+                  Имя
+                  <input class="modal-data"  >
+                  <svg class="icon-modal-data"  width="12" height="12">
+                    <use xlink:href=""></use>
+                  </svg>
+              </label>
+
+              <label for="name" class="form__name">
+                Телефон
+                <input class="modal-data"  >
+                <svg class="icon-modal-data"  width="12" height="12">
+                  <use xlink:href=""></use>
+                </svg>
+            </label>
+
+            <label for="name" class="form__name">
+              Почта
+              <input class="modal-data"  >
+              <svg class="icon-modal-data"  width="12" height="12">
+                <use xlink:href=""></use>
+              </svg>
+          </label>
+
+          
+        <label for="name" class="form__name">
+          Комментарий
+          <input class="modal-data" type="modal-data-text" placeholder="Введите текст" >
+          
+      </label>
+       
+
+          
+         
+
+        
+              
+              
+              <button type="submit" class="form__submit">Отправить</button>
+          </form>
           </div>
         </div>
        </div>
