@@ -264,6 +264,49 @@ letter-spacing: 0.03em;
 color: #757575;
 }
 /* Модалка */
+.modal-data-text{
+    padding: 12px 16px;
+    width: 100%;
+    resize: none;
+    min-height: 120px;
+  
+}
+.placeholder{
+
+}
+.contract-form-group{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color:   #2196F3;
+}
+.contract-form{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.03em;
+
+color: #757575;
+}
+.contract{
+    width: 16px;
+    height: 15px;
+    left: 36.75%;
+right: 62.25%;
+top: 64.75%;
+bottom: 33.79%;
+color: #212121;
+background: #FFFFFF;
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
 .close {
     position: absolute;
     right: 8px;
@@ -310,10 +353,20 @@ color: #212121;
     padding-right: 32px;
     padding-bottom: 0px;
     padding-left: 32px;
+    outline: none ;
+        
 }
 .modal-data:hover,
 .modal-data:focus{
-    border-color: #2196F3;
+    border-color: #2196F3; 
+
+}
+.icon-modal-data:hover,
+.icon-modal-data:focus{
+    fill: #188CE8;
+}
+.icon-modal-data{
+position: absolute;
 }
 .modal-cmmit{
 width: 448px;
@@ -829,6 +882,9 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background: #2F303A;
 }
+.icon-subscription-button{
+    margin-left: 10px;
+}
 
 .subscription-form input {
     width: 358px;
@@ -865,3 +921,5 @@ margin-left: 368px;
 fill: #FFFFFF;
 }
  
+
+
